@@ -1,10 +1,11 @@
 package com.mycompany.app;
 
 /**
- * Hello world!
+ * New York Times Headline Crawler
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        NYTimesCrawler crawler = new NYTimesCrawler();
+        crawler.printHeadlines();
     }
 }
