@@ -12,7 +12,6 @@ public class Headline {
     private final String summary;
     private final String source;
     private final LocalDateTime timestamp;
-    private final LocalDateTime timestamp;
     
     public Headline(String title, String url, String summary, String source) {
         this.title = title;

@@ -1,11 +1,11 @@
 package com.mycompany.app;
 
 /**
- * New York Times Headline Crawler
+ * Multi-Source News Headline Crawler
  */
 public class App {
     public static void main(String[] args) {
-        NYTimesCrawler crawler = new NYTimesCrawler();
-        crawler.printHeadlines();
+        NewsCrawler crawler = new NewsCrawler();
+        crawler.printAllHeadlines();
     }
 }
